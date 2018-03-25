@@ -8,3 +8,6 @@ lint:
 	flake8 hello_world test
 test:
 	PYTHONPATH=. py.test
+
+docker_build:
+	docker build -t hello-world-printer .
