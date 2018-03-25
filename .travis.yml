@@ -1,0 +1,7 @@
+language:  python
+pyton:
+    - "2.7"
+install:
+    - make deps
+script:
+    - make test
