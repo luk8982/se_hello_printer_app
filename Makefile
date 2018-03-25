@@ -18,3 +18,12 @@ docker_run: docker_build
 			-d hello-world-printer
 test_smoke:
 	 	curl --fail 127.0.0.1:5000
+
+USERNAME=luk8982
+TAG=$(USERNAME)/hello-world-printer
+
+docker_push: docker_build
+	@docker login --username $(USERNAME) --password $${DOCKER_PASSWORD}; \
+	docker tag hello-world-printer $(TAG); \
+	docker push $(TAG); \
+	docker logout;
