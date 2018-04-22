@@ -87,3 +87,7 @@ Etykiety
 =========
 .. image:: https://travis-ci.org/luk8982/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/luk8982/se_hello_printer_app
+
+
+.. image:: https://app.statuscake.com/button/index.php?Track=sjiM5sZbSM&Days=1&Design=2
+    :target: https://www.statuscake.com
